@@ -1,0 +1,171 @@
+body {
+  background-color: #F3E5F5;
+}
+
+.mdl-layout_content {
+  display: flex;
+}
+
+.mdl-layout_spacer {
+
+}
+
+.page-content {
+  display: flex;
+  justify-content: center;
+  /*background-color:#E3F2FD;*/
+}
+
+.tool-bar {
+  display:flex;
+  flex-direction:column;
+  padding: 15px;
+}
+#blue {
+
+}
+#green {
+  display:none;
+}
+#red {
+  display:none;
+}
+#yellow {
+  display:none;
+}
+#t1{
+  background-color:#2196F3;
+}
+#t2 {
+  background-color: #4CAF50;
+}
+#t3 {
+  background-color: #F44336;
+}
+#t4 {
+  background-color: #FFEB3B;
+}
+#t5 {
+  background-color: #9E9E9E;
+}
+#bs1 {
+  background-color:#BBDEFB;
+}
+#bs2 {
+  background-color:#2196F3;
+}
+#bs3 {
+  background-color:#0D47A1;
+}
+#bs4 {
+  background-color:#DCEDC8;
+}
+#bs5 {
+  background-color:#8BC34A;
+}
+#bs6 {
+  background-color:#33691E;
+}
+#bs7 {
+  background-color:#EF9A9A;
+}
+#bs8 {
+  background-color:#F44336;
+}
+#bs9 {
+  background-color:#D32F2F;
+}
+#bs10 {
+  background-color: #B71C1C;
+}
+.panel {
+  /*border-top: solid 1px rgba(0, 0, 0, 0.5);*/
+}
+#dashboard {
+
+}
+#weatherBoard {
+  display:none;
+  /*padding:15px;*/
+  flex-wrap:wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+  #weatherBoard .mdl-card {
+    margin: 15px;
+  }
+  #forcast {
+    width: 530px;
+    height: 200px;
+    background-color: #BBDEFB;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-content:center;
+  }
+    #forcast .forcastCell {
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      text-align:center;
+      padding-top:15px;
+      width: 20%;
+      height: 180px;
+      border-right: solid 1px rgba(0, 0, 0, 0.2);
+    }
+      .forcastCell #fc5 {
+        border-right:none;
+      }
+      .forcastCell i {
+        color: yellow;
+      }
+    #forcast .forcastHeader {
+      padding-bottom: -15px;
+    }
+
+  #alerts {
+    width: 200px;
+    background-color: #EF9A9A;
+  }
+  #current {
+    width: 300px;
+    background-color: #0D47A1;
+  }
+
+.demo-card-square.mdl-card {
+  height: 600px;
+  width: 600px;
+  background-color: #DCEDC8;
+  /*display:flex;
+  justify-content:center;*/
+}
+
+.info-display-dash {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  margin-top: -300px;
+  color: white;
+}
+
+.dash {
+  display:flex;
+  padding-top: 10px;
+
+  justify-content:center
+}
+
+.button-span {
+  /*margin-top: 0px;*/
+  margin-left: 25px;
+  align-self:flex-end;
+  /*display:flex;
+  flex-direction: column;
+  flex-wrap:wrap;
+  align-self:flex-end;*/
+}
+
+.button-span button {
+  margin-right: 20px;
+  margin-top:10px;
+}

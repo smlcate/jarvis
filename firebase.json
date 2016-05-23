@@ -1,0 +1,9 @@
+{
+  "firebase": "dashboardjarvis",
+  "public": "public",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

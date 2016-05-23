@@ -1,0 +1,49 @@
+Features:
+  Dashboard:
+    Shows task manager, API's, Weather, Events, Dates, Etc..
+
+  Time System:
+    Alarm clock
+    Timer- ascending/descending
+    Analog or digital style clock
+    Sends alerts based on events and plans:
+      Will wake your ass up and tell you when you need to leave for school, work, etc..
+
+  Task manager:
+    Calendar
+    lists:
+      Organized by type, date, or name.
+      ex. Christmas list, Shopping list, Jimmy's Birthday list
+    Events
+    Plans
+    Tasks
+    Etc..
+
+  Memory:
+    Names
+    Addresses
+    Dates
+    Logins
+    Notes
+    Etc..
+
+  API's:
+    Spotify:
+      Controllable Spotify interface on Dash
+      Play's songs
+      Connects to personal account
+    IMDb:
+      Instantly get movie data from IMDb's API
+      Save movies for future reference
+    Twitter:
+      Post and view tweets live
+      Receive notifications on Dash
+    Instagram:
+      Post and view photos
+      Receive notifications on Dash
+    Weather Channel:
+      See up-to-date weather information for user specified areas
+      Receive Notifications
+
+  Customizable:
+    Editable Headers, Color schemes, Images, and Themes

@@ -1,0 +1,332 @@
+body {
+  background-color: #F3E5F5;
+}
+
+.mdl-layout_content {
+  display: flex;
+}
+
+.mdl-layout_spacer {
+
+}
+
+.page-content {
+  display: flex;
+  justify-content: center;
+  /*background-color:#E3F2FD;*/
+}
+
+.tool-bar {
+  display:flex;
+  flex-direction:column;
+  padding: 15px;
+}
+#blue {
+
+}
+#green {
+  display:none;
+}
+#red {
+  display:none;
+}
+#yellow {
+  display:none;
+}
+#t1{
+  background-color:#2196F3;
+}
+#t2 {
+  background-color: #4CAF50;
+}
+#t3 {
+  background-color: #F44336;
+}
+#t4 {
+  background-color: #FFEB3B;
+}
+#t5 {
+  background-color: #9E9E9E;
+}
+#bs1 {
+  background-color:#BBDEFB;
+}
+#bs2 {
+  background-color:#2196F3;
+}
+#bs3 {
+  background-color:#0D47A1;
+}
+#bs4 {
+  background-color:#DCEDC8;
+}
+#bs5 {
+  background-color:#8BC34A;
+}
+#bs6 {
+  background-color:#33691E;
+}
+#bs7 {
+  background-color:#EF9A9A;
+}
+#bs8 {
+  background-color:#F44336;
+}
+#bs9 {
+  background-color:#D32F2F;
+}
+#bs10 {
+  background-color: #B71C1C;
+}
+#bs11 {
+  background-color:#FFF9C4;
+  color:#FBC02D;
+}
+#bs12 {
+  background-color:#FFF176;
+  color:#FBC02D;
+}
+#bs13 {
+  background-color:#FFEB3B;
+  color:#FBC02D;
+}
+#bs14 {
+  background-color: #FBC02D;
+  color:#FFF9C4;
+}
+
+.panel {
+  /*border-top: solid 1px rgba(0, 0, 0, 0.5);*/
+
+}
+#dashboard {
+
+}
+
+#dashboard #time {
+  text-align:center;
+  font-size: 30px;
+}
+#weatherBoard {
+  display:none;
+  /*padding:15px;*/
+  flex-wrap:wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+  #weatherBoard .mdl-card {
+    margin: 15px;
+  }
+  #forcast {
+    width: 530px;
+    height: 200px;
+    background-color: #BBDEFB;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-content:center;
+  }
+    #forcast .forcastCell {
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      text-align:center;
+      padding-top:15px;
+      width: 20%;
+      height: 180px;
+      border-right: solid 1px rgba(0, 0, 0, 0.2);
+    }
+      .forcastCell #fc5 {
+        border-right:none;
+      }
+      .forcastCell i {
+        color: yellow;
+      }
+    #forcast .forcastHeader {
+      padding-bottom: -15px;
+    }
+
+  #alerts {
+    width: 200px;
+    background-color: #EF9A9A;
+  }
+  #current {
+    width: 300px;
+    background-color: #0D47A1;
+  }
+#dayPlan {
+  display:none;
+  justify-content:center;
+  /*margin-top: 15px;*/
+  padding: 15px;
+  height: 500px;
+}
+  #dayPlan #tasks {
+    width: 500px;
+  }
+   .taskNav {
+     display: flex;
+     justify-content: flex-end;
+     padding: 10px;
+   }
+
+#feeds #twitter {
+  width: 85%;
+  height: 500px;
+  margin-top: 15px;
+  margin-left: 45px;
+  display:block;
+  align-content:center;
+}
+  #twitter a{
+    align-content:center;
+  }
+
+#music {
+  display:flex;
+  margin: 15px;
+  width: 570px;
+  height: 500px
+}
+  #songSelect {
+    display:flex;
+    justify-content: center;
+    height: 100%;
+    width: 150px;
+    padding: 10px;
+    border-right: solid 1px black
+  }
+    #search {
+      width: 140px;
+    }
+      #search input {
+       width: 140px;
+      }
+
+#youtube {
+  width: 550px;
+  height: 500px;
+  margin-left: 25px;
+  margin-top: 15px;
+  padding: 25px;
+  display:flex;
+}
+#youtubeScreen {
+  width: 500px;
+  height: 350px;
+  background-color: black;
+}
+
+#calendarDisplay {
+  display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content: center;
+  height: 500px;
+  width: 560px;
+  margin:15px;
+}
+#calendarHeader {
+  width: 560px;
+  height: 15px;
+  margin-left: -15px;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  list-style: none;
+}
+#calendarHeader li {
+  width: 75px;
+  text-align: center;
+}
+.calendarCell {
+  display:flex;
+  background-color:lightgrey;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border: solid 1px white;
+  height: 88px;
+  width: 75px;
+  margin: 0px;
+}
+#blankCell {
+  background-color:white;
+}
+#taskDisplay {
+  width: 570px;
+  height: 500px;
+  margin-left: 15px;
+  margin-top: 15px;
+  display:flex;
+}
+#taskHeader {
+  display:flex;
+  justify-content: flex-end;
+  align-content: center;
+  padding: 15px;
+}
+#taskHeader input {
+  margin-left: 8px;
+  margin-right: 10px;
+}
+#taskList {
+width: 570px;
+display: flex;
+flex-direction:column;
+padding: 30px;
+align-content:flex-start;
+}
+#taskCell {
+  width: 200px;
+  height: 30px;
+}
+#setUp {
+  display:none;
+  width: 300px;
+  height: 250px;
+  padding: 30px;
+}
+#userDisplay {
+  padding: 20px;
+}
+ #userDisplay input {
+   margin: 10px;
+ }
+
+.demo-card-square.mdl-card {
+  height: 600px;
+  width: 600px;
+  background-color: #DCEDC8;
+  /*display:flex;
+  justify-content:center;*/
+}
+
+.info-display-dash {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  margin-top: -300px;
+  color: white;
+}
+
+.dash {
+  display:flex;
+  padding-top: 10px;
+
+  justify-content:center
+}
+
+.button-span {
+  /*margin-top: 0px;*/
+  margin-left: 25px;
+  align-self:flex-end;
+  /*display:flex;
+  flex-direction: column;
+  flex-wrap:wrap;
+  align-self:flex-end;*/
+}
+
+.button-span button {
+  margin-right: 20px;
+  margin-top:10px;
+}
