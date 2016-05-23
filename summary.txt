@@ -1,0 +1,2 @@
+	JarvIs is a very simple application that has multiple display views. In these views, the user can see the date, time, and a cute kitten. Also there is an embedded twitter timeline that allows the user to see their twitter feed. 
+	The application was supposed to include a calendar that would keep track of events and important dates. It was also intended to include a task/planner.
